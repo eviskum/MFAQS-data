@@ -1,0 +1,9 @@
+; VLVALUTA.def : Declares the module parameters for the DLL.
+
+LIBRARY      "VLVALUTA"
+DESCRIPTION  'VLVALUTA Windows Dynamic Link Library'
+
+EXPORTS
+   DllWorker   @1
+   DllLogReg   @2
+   DllGetLog   @3
